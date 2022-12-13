@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yahoo!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/67e5d0119e.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="./style.css" /> 
+    </head>  
+
+    <body>
+
+       
+                <nav class="nav-bar">
+                    <ul id="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a class ="nav-item" href="#">Mail</a></li>
+                        <li><a class ="nav-item" href="#">News</a></li>
+                        <li><a class ="nav-item" href="#">Finance</a></li>
+                        <li><a class ="nav-item" href="#">Entertainment</a></li>
+                        <li><a class ="nav-item" href="#">Life</a></li>
+                        <li><a class ="nav-item" href="#">Yahoo Plus</a></li>
+                        <li><a class ="nav-item" href="#">Sign In</a></li>
+                        <i class="fas fa-times" onclick="closenav()"></i>
+                      </ul>
+                      <i class="fas fa-bars" onclick="opennav()"></i>
+                </nav>
+          
+
+
+        <div id="layout">
+            <div class="container">
+
+                <div class="yahoo-container"> 
+                    <img id="yahoo-icon" src="./pictures/yahoo-logo-png-free-download-3.png" alt="yahoo logo">
+                    <input type="text" placeholder="Search keyword or type a URL" name="search">
+                </div>
+            
+                
+
+                <div id="app-header">
+                    <h1>Trending News</h1>
+                </div>
+
+                <div class="news-container">
+                    <div class="article-container-main">
+                        <div class="news-image">
+                            <img class="news-picture" src="./pictures/3000.jpg" alt="north carolina shooting">
+                        </div>
+                        <div class="news-info">
+                            <div class="date">
+                                October 19, 2022
+                            </div>
+                            <div class="section">
+                                Breaking News
+                            </div>
+                                <a href="#">5 dead in shooting on North Carolina nature trail</a>
+                        </div>
+                    </div>
+
+                    <div class="article-container-main">
+                        <div class="news-image">
+                            <img class="news-picture" src="./pictures/last-cardi.jpg" alt="cardi b">
+                        </div>
+                        <div class="news-info">
+                            <div class="date">
+                                October 19, 2022
+                            </div>
+                            <div class="section">
+                                Entertainment
+                            </div>
+                            <a href="#">Judge chides Cardi B after 'unprofessional' exchange</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="news-container"> 
+                    <div class="article-container-third">
+
+                        <div class="news-image">
+                            <img class="news-picture" src="./pictures/house.jpg" alt="house">
+                        </div>
+                        <div class="news-info">
+                            <div class="date">
+                                October 19, 2022
+                            </div>
+                            <div class="section">
+                                Finance
+                            </div>
+                                <a href="#">Mortgage rates inch closer to 7%, remain at 20-year high</a>
+                        </div>
+
+                    </div>
+
+                    <div class="article-container-third">
+
+                        <div class="news-image">
+                            <img class="news-picture" src="./pictures/trump-1-1024x683.jpg" alt="trump">
+                        </div>
+                        <div class="news-info">
+                            <div class="date">
+                                October 19, 2022
+                            </div>
+                            <div class="section">
+                                Politics
+                            </div>
+
+                                <a href="#">Trump lashes out at January 6 committee vote to subpoena him</a>
+                        </div>
+
+                    </div>
+
+                    <div class="article-container-third">
+
+                        <div class="news-image">
+                            <img class="news-picture" src="./pictures/tom-brady--1024x683.jpg" alt="tom brady">
+                        </div>
+                        <div class="news-info">
+                            <div class="date">
+                                October 19, 2022
+                            </div>
+                            <div class="section">
+                                Sports
+                            </div>
+                            <div class="news-title">
+                                <a href="#">Tom Brady signs NFL icon's son to brand's 1st NIL deal</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="app-header">
+                    <h1>Weather</h1>
+                </div>
+
+                <div class="weather-container">
+                    <div class="days-container"> 
+
+                        <ul class="location-header">
+                            <li class="location-name">Providence</li>
+                            <li class="change-location">Change Location</li>
+                        </ul>
+
+                        <div class="days-list">
+
+
+                            <div class="days-item-mobile">
+                                <i id="left" class="fas fa-chevron-left"></i>
+                                <i id="right" class="fas fa-chevron-right"></i>
+
+                                <div class="day-name">
+                                    Today
+                                </div>
+                                    <img class="weather-icon" src="./pictures/Vector.jpg" alt="sunny">
+                          
+                                <span class="temp">
+                                    22°C<br>
+                                    16°C
+                                </span>
+                               
+                                
+                            </div>
+
+                            <div class="days-item">
+
+                                <div class="day-name">
+                                    Today
+                                </div>
+                                    <img class="weather-icon" src="./pictures/Vector.jpg" alt="sunny">
+                          
+                                <span class="temp">
+                                    22°C<br>
+                                    16°C
+                                </span>
+                                
+                            </div>
+        
+                            <div class="days-item">
+                                <div class="day-name">
+                                    Saturday
+                                </div>
+                                
+                                    <img class="weather-icon" src="./pictures/Vector-2.jpg" alt="sunny">
+                            
+                                <span class="temp">
+                                    18°C<br>
+                                    14°C
+                                </span>
+                                
+                            </div>
+        
+                            <div class="days-item">
+                                <div class="day-name">
+                                    Sunday
+                                </div>
+                                
+                                    <img class="weather-icon" src="./pictures/Vector-2.jpg" alt="sunny">
+                              
+                                <span class="temp">
+                                    20°C<br>
+                                    14°C
+                                </span>
+                                
+                            </div>
+        
+                            <div class="days-item">
+                                <div class="day-name">
+                                    Monday
+                                </div>
+                                
+                                    <img class="weather-icon" src="./pictures/Vector-3.jpg" alt="sunny">
+                             
+                                <span class="temp">
+                                    18°C<br>
+                                    14°C
+                                </span>
+                                
+                            </div>
+    
+                            <div class="days-item">
+                                <div class="day-name">
+                                    Tuesday
+                                </div>
+                               
+                                    <img class="weather-icon" src="./pictures/Vector.jpg" alt="sunny">
+                             
+                                <span class="temp">
+                                    23°C<br>
+                                    18°C
+                                </span>
+                                
+                            </div>
+    
+                            <div class="days-item">
+                                <div class="day-name">
+                                    Wednesday
+                                </div>
+                              
+                                    <img class="weather-icon" src="./pictures/Vector-3.jpg" alt="sunny">
+                              
+                                <span class="temp">
+                                    20°C<br>
+                                    16°C
+                                </span>
+                               
+                            </div>
+                        </div>
+
+                        <div class="see-more"><a href="#">See More>></a></div>
+
+                    </div>
+
+                    
+                    
+                </div>
+
+            </div>
+
+
+                
+                
+                <nav class="end-container"> 
+                    <ul class="end-items">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                    <ul class="end-items">
+                        <li><a href="#">Yahoo.&nbsp;&nbsp;&nbsp;&nbsp;All Rights Served</a></li>
+                    </ul>
+                </nav>
+        </div>
+
+        <script>
+            var menu = document.getElementById("menu");
+
+            function opennav(){
+                menu.style.right = "0";
+            }
+            function closenav(){
+                menu.style.right = "-200px";
+            }
+            
+        </script>
+
+
+       
+
+    </body>
+</html>
